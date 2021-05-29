@@ -18,7 +18,6 @@ class NumericInput extends TextInput
 {
     public function add($text)
     {
-        $len = strlen($text);
         $textCd = ord($text);
         $isNumber = $textCd >= 48 && $textCd <= 57;
         if ($isNumber) {
